@@ -1,4 +1,4 @@
-# Alavi-et-al.-A-quantitative-framework-for-identifying-patterns-of-route-use-in-animal-movement-data
+# Alavi et al. A quantitative framework for identifying patterns of route use in animal movement data
 This repository contains r code related to Alavi et al. A quantitative framework for identifying patterns of route-use in animal movement data. Frontiers
 
 The r code in this repository will eventually be updated, streamlined and packaged for ease of use.
