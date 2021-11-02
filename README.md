@@ -8,7 +8,7 @@ The r code in this repository will eventually be updated, streamlined and packag
  ## Instructions
 There are various packages with complex dependencies used accross the scripts used in this study. In order to install every package, Windows users must first ensure that the latest version of [rtools](https://cran.r-project.org/bin/windows/Rtools/) is properly installed. Mac users must ensure that the latest version of [Xcode](https://developer.apple.com/xcode/) is properly installed.  This step cannot be skipped .
 
-The following script installs all of the required packages and their dependencies:
+The following script installs the most recent versions of the required packages and their dependencies:
 
 ```
 install.packages(c("devtools","miniCRAN","pacman"), dependencies = TRUE, type="source") 
@@ -31,8 +31,9 @@ packages_to_install=c(new_packages,packages_to_update)
 
 install.packages(packages_to_install, type="source")
 ```
-
-
+Package versions used at the time of analysis:
+```getPass_0.2-3```, ```dplyr_1.0.7```, ```plyr_1.8.6```, ```data.table_1.14.2```, ```tidyr_1.1.4```, ```lubridate_1.8.0```, ```ggplot2_3.3.5```, ```ggpubr_0.4.0```, ```sp_1.4-5```, ```rgdal_1.5-27```, ```raster_3.5-2```, ```spatstat_2.2-0```, ```move_4.0.6```, ```ctmm_0.6.2```, ```mixR_0.2.0```, ```RANN_2.6.1```, ```ClusterR_1.2.5```, ```StanHeaders_2.26.1```, ```rstan_2.26.1```, ```brms_2.16.1```                               
+            
 Be sure to change the working directory to an appropriate one on your system. Also be sure to modify where write.csv() saves all outputs. 
 
 ## Script metadata
