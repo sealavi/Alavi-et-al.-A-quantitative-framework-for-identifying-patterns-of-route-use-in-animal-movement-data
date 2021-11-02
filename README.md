@@ -17,7 +17,7 @@ devtools::install_github("ctmm-initiative/ctmmh")
 
 
 #Check if required packages and their dependencies need installation or updates
-list_of_required_packages <- c("plyr", "dplyr", "lubridate", "data.table", "ggplot2", "ggpubr", "sp", 
+list_of_required_packages <- c("plyr", "dplyr", "lubridate", "tidyr", "data.table", "ggplot2", "ggpubr", "sp", 
 "rgdal", "raster", "move", "spatstat", "mixR","ClusterR", "RANN", "StanHeaders", "rstan", "brms")
 
 check_if_needs_install=as.character(miniCRAN::pkgDep(list_of_required_packages, suggests = TRUE, enhances = TRUE))
