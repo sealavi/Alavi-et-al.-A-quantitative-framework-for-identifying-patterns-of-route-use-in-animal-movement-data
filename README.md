@@ -1,7 +1,7 @@
 # Alavi et al. A quantitative framework for identifying patterns of route use in animal movement data
 This repository contains r code related to Alavi et al. A quantitative framework for identifying patterns of route-use in animal movement data. Frontiers
 
-The r code in this repository will eventually be updated, streamlined and packaged for ease of use.
+The r code in this repository will be updated, streamlined and packaged for ease of use.
 
  Original movement data are hosted on [Movebank](https://www.movebank.org/) (Processed data: Movebank ID 1120749252; Unprocessed data: Movebank ID 468460067)
  
